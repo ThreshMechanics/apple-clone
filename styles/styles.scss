@@ -18,7 +18,6 @@ a{
 
 li{
     font-size: 1.31rem;
-    margin: 10px;
     color: #949497;
 }
 
@@ -168,7 +167,7 @@ header{
     color: #a3a1ab;
     font-size: 20px;
 }
-
+// imac section
 .imac{
     background: url('../images/hero_imac_avail__zbofyl96mzmm_largetall.jpg');
 }
@@ -212,6 +211,10 @@ header{
     text-align: center;
 }
 
+.grid-sub-title{
+    color: #79797a;
+}
+
 
 .title-watch{
     color: white;
@@ -223,6 +226,11 @@ header{
 
 .mothers-day{
     background: url('../images/tile_lastchance__eos89elmgi6a_large.jpg') center no-repeat;
+}
+
+.mothers-day-title{
+    font-size: 4rem;
+    color: #1d1d1f;
 }
 
 .arcade{
@@ -270,11 +278,36 @@ header{
 }
 
 .footer-list-container{
-    margin: 20px 45px 20px 45px;
+    margin: 2rem 4.7rem 2rem 4.7rem;
 }
 
 
 .bold-footer-item{
     font-weight: bold;
     color: black;
+    margin: 1rem;
+}
+
+.footer-item{
+    margin: 10px;
+}
+
+.footer-item:hover{
+    border-bottom: 2px solid #86868b;
+}
+
+// responsive styling
+
+@media screen and (max-width: 1068px){
+    .ipad-pro{
+        background: url('../images/hero_ipad_pro__gl982dtu49im_mediumtall.jpg') center no-repeat;
+    }
+
+    .iphone12-purple{
+        background: url('../images/hero_iphone_12_purple__eybnx2ju5mky_mediumtall.jpg') center no-repeat;
+    }
+
+    .imac{
+        background: url('../images/hero_imac_avail__zbofyl96mzmm_mediumtall.jpg') center no-repeat;
+    }
 }
