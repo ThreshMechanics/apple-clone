@@ -15,6 +15,28 @@ a {
   text-decoration: none;
 }
 
+li {
+  font-size: 1.31rem;
+  margin: 10px;
+  color: #949497;
+}
+
+img {
+  margin-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  font-size: 21px;
+  margin-top: 11px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .container {
   max-width: 98rem;
   margin: 0 auto;
@@ -173,5 +195,96 @@ header {
 
 .ipad-pro {
   border-top: none;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.watch-series {
+  background: url("../images/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg") center no-repeat;
+}
+
+.grid-item {
+  height: 60rem;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.title-watch {
+  color: white;
+}
+
+.airtag {
+  background: url("../images/promo_airtag__e6b73a64nno2_large.jpg") center no-repeat;
+}
+
+.mothers-day {
+  background: url("../images/tile_lastchance__eos89elmgi6a_large.jpg") center no-repeat;
+}
+
+.arcade {
+  background: url("../images/promo_arcade_wonderbox__emq7ob1vhtw2_large.jpg") center no-repeat;
+}
+
+.tv4k {
+  background: url("../images/promo_tile_tv4k__cbz6fpnn6kz6_large.jpg") center no-repeat;
+}
+
+.movie-image {
+  background: url("../images/promo_mosquito_coast__fzo6l5h2r42u_large.jpg") center no-repeat;
+}
+
+.movie-grid-item {
+  padding-top: 30rem;
+}
+
+.tv-image {
+  top: 35rem;
+}
+
+.fine-print {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0px 11px;
+  font-size: 1.31em;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer-text {
+  text-align: left;
+}
+
+.footer-container {
+  background-color: #f5f5f7;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-list-container {
+  margin: 20px 45px 20px 45px;
+}
+
+.bold-footer-item {
+  font-weight: bold;
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */
