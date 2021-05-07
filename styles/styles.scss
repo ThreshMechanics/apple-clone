@@ -84,7 +84,7 @@ header{
 }
 
 .nav-link-search{
-    width: 1.6rem;
+    width: 2rem;
     background: url("../images/globalnav_search_image__fca9mfoh8a2q_large.svg") center no-repeat;
     height: 4.4rem;
 }
@@ -284,30 +284,388 @@ header{
 
 .bold-footer-item{
     font-weight: bold;
-    color: black;
+    color: #8b8b8d;
     margin: 1rem;
 }
 
 .footer-item{
     margin: 10px;
+    color: #656568;
 }
 
 .footer-item:hover{
-    border-bottom: 2px solid #86868b;
+    text-decoration: underline #2f2f30;
 }
 
-// responsive styling
+// responsive styling tablet
 
 @media screen and (max-width: 1068px){
     .ipad-pro{
-        background: url('../images/hero_ipad_pro__gl982dtu49im_mediumtall.jpg') center no-repeat;
+        background: url('../images/hero_ipad_pro__gl982dtu49im_mediumtall.jpg');
     }
 
     .iphone12-purple{
-        background: url('../images/hero_iphone_12_purple__eybnx2ju5mky_mediumtall.jpg') center no-repeat;
+        background: url('../images/hero_iphone_12_purple__eybnx2ju5mky_mediumtall.jpg');
     }
 
     .imac{
-        background: url('../images/hero_imac_avail__zbofyl96mzmm_mediumtall.jpg') center no-repeat;
+        background: url('../images/hero_imac_avail__zbofyl96mzmm_mediumtall.jpg');
     }
+
+    .hero{
+        height: 65rem;
+        background-size: auto 69.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title-heading{
+        font-size: 4.4rem;
+    }
+
+    .title-sub-heading{
+        font-size: 2.4rem;
+    }
+
+    .cta-link:nth-child(2){
+        margin-left: 2rem;
+    }
+
+    .grid-item{
+        height: 50rem;
+    }
+
+    .watch-series{
+        background: url('../images/promo_watch_series_6_lte__f8lrasjnry2y_medium.jpg') center no-repeat;
+    }
+
+    .airtag{
+        background: url('../images/promo_airtag__e6b73a64nno2_medium.jpg') center no-repeat;
+    }
+    
+    .mothers-day{
+        background: url('../images/tile_lastchance__eos89elmgi6a_medium.jpg') center no-repeat;
+    }
+    
+    .arcade{
+        background: url('../images/promo_arcade_wonderbox__emq7ob1vhtw2_medium.jpg') center no-repeat;
+    }
+    
+    .tv4k{
+        background: url('../images/promo_tile_tv4k__cbz6fpnn6kz6_medium.jpg') center no-repeat;
+    }
+    
+    .movie-image{
+        background: url('../images/promo_mosquito_coast__fzo6l5h2r42u_medium.jpg') center no-repeat;
+    }
+
+    .grid-sub-title{
+        font-size: 2rem;
+        width: 80%;
+        margin-left: 4.5rem;
+        position: relative;
+        top: -4rem;
+    }
+
+    .watch-sub-title{
+        top: -4rem;
+    }
+
+    .watch-image{
+        margin-top: 12rem;
+        margin-bottom: -3rem;
+    }
+
+    .mothers-sub-title{
+        top: 0;
+    }
+    
+    .title-mothers{
+        width: 80%;
+        margin-left: 5rem;
+        justify-content: center;
+    }
+
+    .mothers-day-title{
+        color: #464648;
+        font-size: 3rem;
+        width: 70%;
+        margin-left: 2rem;
+        position: relative;
+        left: 4rem;
+    }
+
+    .fine-print{
+        width: 95%;
+    }
+
+    .footer-list-container{
+        font-size: 5rem;
+        padding: 1rem;
+    }
+
+    br{
+        content: '';
+    }
+
+    .small-cta > a{
+        position: relative;
+        top: -5rem;
+        font-size: 1.8rem;
+    }
+
+    .mothers-small-cta > a{
+        top: 0rem;
+        display: block;
+        width: fit-content;
+        margin-bottom: .5rem;
+        left: 11rem;
+    }
+
+    .mothers-small-cta > .apple-watch{
+        margin-left: 5.5rem;
+    }
+
+
+    .tv4k-small-cta > a{
+        top: -4rem;
+    }
+
+    img{
+        position: relative;
+        top: -3.5rem;
+    }
+
+    .tv4k-title{
+        width: 55%;
+        margin-left: 10rem;
+        font-size: 3rem;
+        position: relative;
+        top: -2.5rem;
+        color: #1d1d1f;
+    }
+
+    .movie-watch-now{
+        position: relative;
+        top: -4rem;
+    }
+
+    .title-watch{
+        position: relative;
+        top: -5rem;
+    }
+
+    .tv-image{
+        position: relative;
+        top: 4rem;
+    }
+}
+
+//responsive styling mobile header
+@media screen and (max-width: 767px) {
+    header{
+        height: 4.8rem;
+        transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1), 
+                    height .56s cubic-bezier(0.32, 0.08, 0.24, 1);
+    }
+
+    header .container{
+        padding: 0;
+    }
+
+    .ipad-pro{
+        margin-top: 4.8rem;
+    }
+
+    .nav-list{
+        margin: 0;
+    }
+
+    .nav-list-mobile{
+        display: flex;
+    }
+
+    .nav-item{
+        width: 4.8rem;
+        height: 4.8rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item-hidden{
+        display: none;
+    }
+
+    .mobile-menu{
+        position: relative;
+        z-index: 1100;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .line{
+        position: absolute;
+        width: 1.7rem;
+        height: 1px;
+        background-color: #fff;
+        transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+    .line-top{
+        margin-top: 2px;
+    }
+
+    .line-bottom{
+        margin-top: -1rem;
+    }
+
+    .active .line-top{
+        margin-top: 0;
+        transform: rotate(45deg);
+        transition: transform .3192s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+    .active .line-bottom{
+        margin-top: 0;
+        transform: rotate(-45deg);
+        transition: transform .3192s .1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+
+    header.active{
+        height: 100%;
+        background-color: black;
+    }
+
+    .nav-link-apple{
+        width: 1.8rem;
+        height: 4.8rem;
+        position: relative;
+        z-index: 1200;
+    }
+
+    .nav-link-bag{
+        width: 1.6rem;
+        height: 4.8rem;
+        transition: opacity 3s;
+    }
+
+    .nav{
+        position: relative;
+    }
+
+    .nav-link{
+        font-size: 1.7rem;
+        padding: 0;
+        margin: auto 0;
+    }
+
+    .nav-list-larger{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        display: block;
+        padding: 10.5rem 5rem;
+        z-index: 1000;
+        box-sizing: border-box;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .3s;
+    }
+
+    .active .nav-list-larger{
+        width: 100%;
+        height: 100vh;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .active .nav-link-bag{
+        opacity: 0;
+        transition: opacity .3s;
+    }
+
+    .nav-list-larger .nav-item{
+        width: 100%;
+        justify-content: flex-start;
+        border-bottom: 2px solid rgba(255, 255, 255, .11);
+    }
+
+    .nav-list-larger .nav-item:nth-child(1){
+        display: none;
+    }
+
+
+    .nav-list-larger .nav-item:nth-child(9){
+        border-bottom: none;
+    }
+
+    .nav-list-larger .nav-item:nth-child(10){
+        border-bottom: none;
+    }
+
+    .active .nav-list-larger .nav-item{
+        animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+    .ipad-pro{
+        background: url('../images/hero_ipad_pro__gl982dtu49im_small.jpg');
+    }
+
+    .iphone12-purple{
+        background: url('../images/hero_iphone_12_purple__eybnx2ju5mky_small.jpg');
+    }
+
+    .imac{
+        background: url('../images/hero_imac_avail__zbofyl96mzmm_small.jpg');
+    }
+
+    .hero{
+        height: 50rem;
+        background-size: auto 54.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title {
+        padding-top: 3.7rem;
+    }
+
+    .title-heading{
+        font-size: 3.2rem;
+    }
+
+    .title-sub-heading{
+        font-size: 1.9rem;
+    }
+
+    .title-price-iphone12{
+        font-size: 1.4rem;
+        width: 50%;
+        margin-left: 11rem;
+    }
+
+    .cta{
+        position: relative;
+        top: -1.5rem;
+    }
+
 }
