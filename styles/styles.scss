@@ -625,6 +625,8 @@ header{
 
 }
 
+
+// mobile styling
 @media screen and (max-width: 736px) {
     .ipad-pro{
         background: url('../images/hero_ipad_pro__gl982dtu49im_small.jpg');
@@ -666,6 +668,59 @@ header{
     .cta{
         position: relative;
         top: -1.5rem;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    p{
+        margin: 10px;
+    }
+
+    .container-nav-footer{
+        display: none;
+    }
+
+    .watch-sub-title{
+        position: relative;
+        top: -1rem;
+    }
+
+    .grid-sub-title{
+        position: relative;
+        top: -4.8rem;
+    }
+
+    .mothers-sub-title{
+        font-size: 1.9rem;
+        position: relative;
+        top: -1rem;
+    }
+
+    .title-arcade{
+        position: relative;
+        top: -1rem;
+    }
+
+    .title-arcade > img{
+        top: -5rem;
+    }
+
+    .tv4k-small-cta{
+        position: relative;
+        top: 0rem;
+    }
+
+    .movie-watch-now{
+        position: relative;
+        top: -4rem;
+    }
+
+    .tv-image{
+        position: relative;
+        top: 2.6rem;
     }
 
 }
